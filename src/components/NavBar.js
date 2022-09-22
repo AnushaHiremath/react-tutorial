@@ -1,9 +1,17 @@
-import React from 'react'
+import { ShoppingCart } from "@mui/icons-material";
+import { AppBar, Toolbar } from "@mui/material";
+import React from "react";
 
 const NavBar = () => {
   return (
-    <div>NavBar</div>
-  )
-}
+    <>
+      <AppBar sx={{backgroundColor:"lightblue"}}>
+        <Toolbar>
+          <ShoppingCart/>
+        </Toolbar>
+      </AppBar>
+    </>
+  );
+};
 
-export default NavBar
+export default NavBar;
